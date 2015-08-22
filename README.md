@@ -56,6 +56,7 @@ if the command is found JBot will run the method with which the command is regis
 
 plans for the future:
 ---------------------
+ * isolate the replies per message id
  * simplify command decorator
  * improve command framework
  * create full bot framework

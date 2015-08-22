@@ -16,7 +16,7 @@ class Jokes(AbilityBase):
         r = praw.Reddit(user_agent='JBot 0.0.1')
         sub = r.get_subreddit('jokes')
 
-        for joke in sub.get_top_from_day(limit=10):
+        for joke in sub.get_top_from_day(limit=15):
             if joke.id not in self.joke_told:
                 self.reply(joke.title)
                 sleep(1)

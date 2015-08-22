@@ -10,7 +10,7 @@ class Flow(AbilityBase):
 
     flow = {'name': '', 'flow': '', 'time': ''}
 
-    @command(co('set flow', 'Set the flow'),)
+    @command(co('set flow', 'set the flow'),)
     def set_flow(self, request, command=None):
 
         if not request:
