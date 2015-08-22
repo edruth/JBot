@@ -11,13 +11,17 @@ features:
  * highly customizable command framework
  * fully multithreaded
 
+Supports:
+--------
+Python2 and Python3
+
 Dependencies:
 -------------
-python > 3  
 python-telegram-bot  
 praw  
 wikipedia  
 requests  
+futures
 
 Basic setup and installation:
 -----------------------------
