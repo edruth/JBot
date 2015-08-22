@@ -11,14 +11,27 @@ features:
  * highly customizable command framework
  * fully multithreaded
 
+Dependencies:
+-------------
+python > 3  
+python-telegram-bot  
+praw  
+wikipedia  
+requests  
 
-Basic setup:
-------------
+Basic setup and installation:
+-----------------------------
  In conf/configuration.py fill your telegram token.  
  Import and add the desired abilities to the abilities set
 
  set your telegram bot to "privacy false" with BotFather (/setprivacy false)
 
+ clone the project, create virtualenv and install dependencies  
+ 
+        pip install -r requirements.txt
+ run the bot
+ 
+        python main.py
 
 bot usage:
 ----------

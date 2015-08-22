@@ -35,7 +35,7 @@ def get_updates(bot, update_id):
 def process_messages(bot):
     update_id = None
     last_request = 0
-    with ThreadPoolExecutor(5) as executor:
+    with ThreadPoolExecutor(3) as executor:
         while True:
             update, update_id = get_updates(bot, update_id)
             if update:
