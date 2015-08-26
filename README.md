@@ -1,8 +1,6 @@
 JBot
 ----
-Telegram Bot Framework
-
-template for telegram bot
+Telegram Bot that dose everything!
 
 
 features:
